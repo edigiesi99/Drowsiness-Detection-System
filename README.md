@@ -9,6 +9,28 @@ The approach used in the article employs the Viola-Jones algorithm to detect fac
 
 After image acquisition, the cropped eye portion is first converted to grayscale and then into a binary image; it is subsequently processed to reduce noise.
 
+Here’s how you can describe the structure of the code in the **README** file in English:
+
+
+# Code Structure of the Repository
+
+The repository is organized into the following main folders and files:
+
+### `code` folder
+- Contains the main code to test the algorithm's functionality for detecting whether eyes are open or closed.
+- The **`snapshot.m`** file runs the algorithm on static images of individuals, allowing analysis of whether their eyes are open or closed.
+- The **`real_time.m`** file applies the algorithm on real-time video captured via a webcam, enabling live detection.
+
+### `images` folder
+- Contains three subfolders with images of individuals to analyze for detecting if their eyes are open or closed. These images are used by the `snapshot.m` file to test the algorithm.
+
+### `segnaletica` folder
+- Contains the notification pop-ups used by the program to signal the eye status (open or closed). These pop-ups provide visual feedback to the user during the real-time execution of the algorithm.
+
+---
+
+This layout clearly explains the repository structure and the role of each component.
+
 ## Algorithmic Basis
 
 The detection of drowsiness is based on three main checks:
