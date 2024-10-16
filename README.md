@@ -27,7 +27,6 @@ The repository is organized into the following main folders and files:
 ### `segnaletica` folder
 - Contains the notification pop-ups used by the program to signal the eye status (open or closed). These pop-ups provide visual feedback to the user during the real-time execution of the algorithm.
 
----
 
 This layout clearly explains the repository structure and the role of each component.
 
