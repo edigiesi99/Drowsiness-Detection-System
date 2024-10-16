@@ -12,7 +12,7 @@ After image acquisition, the cropped eye portion is first converted to grayscale
 Here’s how you can describe the structure of the code in the **README** file in English:
 
 
-# Code Structure of the Repository
+## Code Structure of the Repository
 
 The repository is organized into the following main folders and files:
 
